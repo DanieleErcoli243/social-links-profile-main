@@ -56,6 +56,18 @@ body {
             font-style: normal;
             margin: 10px 0;
         }
+
+        /* lista */
+
+        ul {
+            list-style-type: none;
+
+            li {
+                padding: 10px 20px;
+                background-color: hsl(0, 0%, 20%);
+
+            }
+        }
     }
 
 
