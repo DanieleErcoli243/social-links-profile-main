@@ -12,10 +12,26 @@ body {
 /* container */
 
 .container {
-    max-width: 350px;
+    max-width: 340px;
     margin: 0 auto;
+    /* card */
+
+    .card {
+        background-color: hsl(0, 0%, 12%);
+        padding: 20px;
+
+        /* picture */
+        figure {
+
+
+            img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 50%;
+            }
+        }
+    }
+
+
+
 }
-
-/* card */
-
-.card {}
