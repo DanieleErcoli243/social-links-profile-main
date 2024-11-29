@@ -22,13 +22,19 @@ body {
 
         /* picture */
         figure {
-
+            padding: 20px 0;
 
             img {
-                max-width: 100%;
+                max-width: 70px;
                 height: auto;
                 border-radius: 50%;
             }
+        }
+
+        h1,
+        h2,
+        span {
+            color: hsl(0, 0%, 100%);
         }
     }
 
