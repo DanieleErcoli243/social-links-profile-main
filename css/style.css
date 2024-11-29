@@ -74,7 +74,16 @@ body {
                 background-color: hsl(0, 0%, 20%);
                 border-radius: 10px;
                 margin-bottom: 10px;
+                cursor: pointer;
+            }
 
+            li:hover {
+                background-color: hsl(75, 94%, 57%);
+
+                span {
+                    color: black;
+
+                }
             }
         }
     }
