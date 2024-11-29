@@ -21,14 +21,17 @@ body {
     font-size: 12px;
 }
 
+.margin {
+    margin: 20px 0;
+}
 
 
 /* container */
 
 .container {
     height: 100vh;
-    max-width: 350px;
-    margin: 0 auto;
+    /* max-width: 350px;
+    margin: 0 auto; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,6 +40,7 @@ body {
     .card {
         background-color: hsl(0, 0%, 12%);
         padding: 20px;
+        border-radius: 10px;
 
         /* picture */
         figure {
@@ -53,7 +57,7 @@ body {
         h2,
         span {
             color: hsl(0, 0%, 100%);
-            margin-bottom: 10px;
+
         }
 
         address {
@@ -72,6 +76,7 @@ body {
                 background-color: hsl(0, 0%, 20%);
                 border-radius: 10px;
                 margin-bottom: 10px;
+
             }
         }
     }
@@ -81,4 +86,14 @@ body {
 
 footer {
     padding: 20px;
+    color: white;
+}
+
+/* media querie */
+
+@media screen and (min-width: 1000px) {
+    .card {
+        padding: 20px;
+
+    }
 }
