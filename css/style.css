@@ -9,6 +9,8 @@ body {
     background-color: hsl(0, 0%, 8%);
 }
 
+
+
 /* container */
 
 .container {
@@ -35,11 +37,13 @@ body {
         h2,
         span {
             color: hsl(0, 0%, 100%);
+            margin-bottom: 10px;
         }
 
         address {
             color: hsl(75, 94%, 57%);
             font-style: normal;
+            margin: 10px 0;
         }
     }
 
