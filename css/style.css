@@ -22,11 +22,16 @@ body {
 }
 
 
+
 /* container */
 
 .container {
-    max-width: 340px;
+    height: 100vh;
+    max-width: 350px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* card */
 
     .card {
@@ -70,7 +75,10 @@ body {
             }
         }
     }
+}
 
+/* footer */
 
-
+footer {
+    padding: 20px;
 }
